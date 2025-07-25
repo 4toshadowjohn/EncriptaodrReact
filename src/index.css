@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Seoge UI';
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('/src/images/fondo-principal.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+div {
+    padding: 10px 100px 100px 100px;
+    border: solid;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(50, 54, 66, 0.836);
+    height: auto;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+
+label {
+    color: black;
+    font-size: 25PX;
+}
+
+label :hover {
+    color: rgb(158, 17, 29);
+    font-size: 25PX;
+}
+
+input {
+    font-size: 18px;
+}
+
+button {
+    border-radius: 20cap;
+    width: 200px;
+    padding: 10px;
+}
