@@ -1,19 +1,23 @@
+import './codificador.css'
+
+
 
 export function Codificador () {
-    return(
+
+    const handleSubmit = (event) => {
+    event.preventDefault()
+} 
+
+    return (
         <>
-        <p>
-                    <label>Ingrese codigo para codificar</label>
-                </p>
-                 <p>
-                    <input id="cod" type="text" />
-                 </p>
-                 <p>
-                    <input id="resul" disabled />
-                 </p>
-                 
-                 <button id="miboton">desemcryptar</button>
-                 <script src="js/index.js"></script>
+            <form onSubmit={handleSubmit}>
+                <p><label for='codigo'> Ingrese codifo a codificar: </label></p>
+                <p><input id='codigo' /></p>
+                <p><input id='codigoe' disabled /></p>
+                <button type='submit'>boton</button>
+            </form>
         </>
     )
 }
+
+export default Codificador
