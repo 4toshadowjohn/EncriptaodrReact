@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <label htmlFor="codificar">CODIFICADOR: <input id='codificar' type='radio' name='opcionem' onChange={ChangeRadius1}/></label>
-     <label htmlFor='decodificador'>DECODIFICADOR: <input id='decodificar' type='radio' name='opcionem' onChange={ChangeRadius2}/></label>
+    <label htmlFor='decodificar'>DECODIFICADOR: <input id='decodificar' type='radio' name='opcionem' onChange={ChangeRadius2}/></label>
     if {mostrarcod ? <Codificador /> : <Decodificador/>}
     </> 
   )
