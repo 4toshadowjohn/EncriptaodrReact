@@ -28,7 +28,6 @@ export function Decodificador () {
                 <p>
                     <input id="resul" disabled value={decod}/>
                 </p> 
-                <label>etiqueta de prueba para push</label>
                     <button id="miboton" type="submit">desemcryptar</button>
             </form>
         </>
