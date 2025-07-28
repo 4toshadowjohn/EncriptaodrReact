@@ -14,7 +14,7 @@ export function Codificador () {
                 <p><label htmlFor='codigo'> Ingrese codifo a codificar: </label></p>
                 <p><input id='codigo' /></p>
                 <p><input id='codigoe' disabled /></p>
-                <button type='submit'>boton</button>
+                <button type='submit'>Emcryptar</button>
             </form>
         </>
     )
